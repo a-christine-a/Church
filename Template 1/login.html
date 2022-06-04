@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <!-- CSS Styles -->
+    <link rel="stylesheet" href="./css/vstech.css">
+    <link rel="stylesheet" href="./css/style.css">
+
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./img/logo.png" type="image/x-icon">
+
+    <!-- Fontawesome -->
+    <link rel="stylesheet" href="./vendor/fontawesome-free/css/all.min.css">
+
+    <!-- Scripts -->
+    <script src="/js/vstech.min.js" defer></script>
+    <script src="/vendor/fontawesome-free/js/all.min.js" defer></script>
+    <script src="/vendor/jquery/jquery.min.js" defer></script>
+    <script src="/vendor/jquery-easing/jquery.easing.min.js" defer></script>
+    <script src="/vendor/bootstrap/js/bootstrap.bundle.min.js" defer></script>
+
+    <title>Login | Church Template</title>
+</head>
+<body>
+
+      <div class="container-fluid" style="background-image: url('/img/about.jpg');background-repeat: no-repeat;background-size: cover;">
+
+        <div class="row align-items-center justify-content-center" style="min-height: 100vh;">
+          <div class="container bg-white">
+            <div class="row align-items-center justify-content-center py-4">
+                <div class="col-md-4">
+                    <img src="./img/header-image.png" class="img-fluid" alt="church logo">
+                </div> 
+                <div class="col-md-6"> 
+                <!-- Login Form -->
+                <form method="POST" action="">
+                  <div class="form-group">
+                    <label for="username">Enter Username:</label>
+                    <input type="text" class="form-control" name="username" placeholder="Enter username or Email" required id="username">
+                    <small class="text-muted">Provide the usernme or email that was used to create your account</small>
+                  </div>
+                  <div class="form-group">
+                    <label for="pass">Enter Password:</label>
+                    <input type="password" class="form-control" name="password" placeholder="Enter password" required id="pass">
+                    <small class="text-muted">Provide password for the above account</small>
+                  </div>
+                  <a class="button secondaryAction text-primary" href="">Forgot Password?</a> <a href="/index.html">Skip to home</a>
+                  <button class="primaryAction btn btn-primary btn-block my-4" type="submit">LOGIN</button>
+                </form>
+                </div>
+               </div>
+            </div>
+          </div>
+        </div>
+      </div>
